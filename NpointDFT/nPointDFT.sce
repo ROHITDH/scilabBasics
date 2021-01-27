@@ -48,7 +48,7 @@ a2.y_location = 'origin'
 
 ///DFT by inbuilt command
 X_ = fft(x)
-disp("DFT (inbuilt command): ",X_')   
+disp("DFT (inbuilt command): ",X_)   
 
 X_mag = abs(X_)
 X_phase = atan(imag(X_),real(X_))
